@@ -37,8 +37,6 @@ namespace TeamSize.Controllers
 
             foreach (int key in keys)
             {
-                //result = Math.Max(result, counter[key] + Math.Min(k, greater));
-                //greater += counter[key];
                 result = Math.Max(result, counter[key] + Math.Min(k, result));
             }
 
